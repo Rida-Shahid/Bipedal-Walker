@@ -9,7 +9,7 @@ The implementation is built using:
 
 ## Environment
 - Environment: `BipedalWalker-v3`
-- Version: Normal environment (non-hardcore)
+- Version: Normal environment (hardcore=False)
 
 ## Algorithm
 - Soft Actor-Critic (SAC)
@@ -32,14 +32,14 @@ The trained agent successfully learned stable walking behavior in the environmen
 
 Final trained agent demonstration:
 
-![Agent Demo](final_agent.gif)
+- Mean Reward: 325.1
+- Mean Step Count: 660
+
+![Agent Demo](Final_agent_2M_SAC.gif)
 
 ## Libraries Used
 - Gymnasium
 - Stable-Baselines3
-- PyTorch
-- NumPy
-- Matplotlib
 
 ## Run the Project
 1. Download the notebook.
@@ -48,7 +48,7 @@ Final trained agent demonstration:
 
 ## Files
 - `bipedal_walker_sac.ipynb` — Training and evaluation notebook
-- `final_agent.gif` — Final trained agent demonstration
+- `Final_agent_2M_SAC.gif` — Final trained agent demonstration
 
 ## Notes
-This project was developed as part of a Deep Reinforcement Learning coursework/project.
+This project was developed by Rida Shahid/MSCSF25M015 from department of Computer Science, PUCIT, as part of a Deep Reinforcement Learning coursework.
