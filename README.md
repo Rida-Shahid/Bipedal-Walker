@@ -49,6 +49,8 @@ Final trained agent demonstration:
 ## Files
 - `bipedal_walker_sac.ipynb` — Training and evaluation notebook
 - `Final_agent_2M_SAC.gif` — Final trained agent demonstration
+- `DRL_Presentation.pptx` - Project Slides
+- `Presentation_video.txt` - Link to presentation video
 
 ## Notes
 This project was developed by Rida Shahid/MSCSF25M015 from department of Computer Science, PUCIT, as part of a Deep Reinforcement Learning coursework.
